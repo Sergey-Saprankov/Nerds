@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicons/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normolize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page-body">
+
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <div class="main-logo-wrapper">
+            <a class="main-logo">
+              <img class="main-logo__image" src="img/nerds-logo.svg" width="160" height="65" alt="логотип студии Нёрдс">
+            </a>
+          </div>
+          <ul class="site-navigation">
+            <li class="site-navigation__item">
+              <a class="site-navigation__link" href="blank.html">Контакты</a>
+            </li>
+            <li class="site-navigation__item">
+              <a class="site-navigation__link" href="catalog.html">Магазин</a>
+            </li>
+            <li class="site-navigation__item">
+              <a class="site-navigation__link" href="blank.html">Клиенты</a>
+            </li>
+            <li class="site-navigation__item">
+              <a class="site-navigation__link" href="blank.html">Студия</a>
+            </li>
+          </ul>
+          <div class="user-cart-link-wrapper">
+            <a class="user-cart-link" href="#">Корзина</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <h1 class="hidden">Интернет магазин Нёрдс</h1>
+      <section class="slider">
+        <div class="container">
+          <h2 class="hidden">Как мы работаем</h2>
+          <div class="slider-inner">
+          <div class="slide">
+            <p class="slider__title">Долго, дорого, скрупулезно.</p>
+            <p class="slider__description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+            <a class="button button__slider" href="#">Узнать больше</a>
+            <div class="slider__img">
+              <img src="img/nerds-index-slide1.png" width="760" height="431" alt="Три мобильных телефона хаотично расположенных в пространстве">
+            </div>
+          </div>
+          <div class="slide none">
+            <p class="slider__title">Любим математику как никто другой</p>
+            <p class="slider__description">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+            <a class="button button__slider" href="#">Узнать больше</a>
+            <div class="slider__img">
+              <img src="img/nerds-index-slide2.png" width="760" height="431" alt="Два монитора, смотрящие в разные стороны">
+           </div>
+          </div>
+          <div class="slide none">
+            <p class="slider__title">Только ночь, только хардкор</p>
+            <p class="slider__description">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+            <a class="button button__slider" href="#">Узнать больше</a>
+            <div class="slider__img">
+              <img src="img/nerds-index-slide3.png" width="760" height="431" alt="Монитор и телефон с изображением сайта">
+            </div>
+          </div>
+          <div class="slider-nav-list-wrapper">
+            <ul class="slider__nav-list nav-list">
+              <li class="nav-list__item"><button class="nav-list__button"></button></li>
+              <li class="nav-list__item"><button class="nav-list__button"></button></li>
+              <li class="nav-list__item"><button class="nav-list__button"></button></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <h2 class="hidden">Услуги</h2>
+        <div class="container">
+          <ul class="services__list">
+            <li class="services__item">
+              <h3 class="services__title">Веб-сайты</h3>
+              <p class="services__description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+              <a class="button services__button button--premiere"  href="#">Заказать</a>
+              <div class="services__img">
+                <img src="img\illustration-1.png" width="300" height="146" alt="картинка ноутбука на котором открыт сайт">
+              </div>
+            </li>
+            <li class="services__item">
+              <h3 class="services__title">Приложения</h3>
+              <p class="services__description">Покорите топ-10 приложений в AppStore и Google Play</p>
+              <a class="button services__button button--secondary" href="#">Заказать</a>
+              <div class="services__img">
+                <img src="img\illustration-2.png" width="300" height="146" alt="картинка мобильного телефона с открытым приложением">
+              </div>
+            </li>
+            <li class="services__item">
+              <h3 class="services__title">Презентации</h3>
+              <p class="services__description">Вы даже не подозреваете, насколько вы изумительны!</p>
+              <a class="button services__button button--third" href="#">Заказать</a>
+              <div class="services__img">
+                <img src="img\illustration-3.png" width="300" height="146" alt="картинка с презинтацией">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section  class="description">
+        <h2 class="hidden">О Компании</h2>
+        <div class="container">
+        <div class="description-inner-wrapper">
+          <div class="col-1">
+            <p class="description__title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+            <p class="description__text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+
+            <p class="description__list-text">Выполняем заказы на разработку:</p>
+            <ul class="description__list">
+              <li class="description__item">Веб-сайтов любой сложности</li>
+              <li class="description__item">Мобильных приложений для iOS и Android</li>
+              <li class="description__item">Слайдшоу и видео для корпоративных презентаций</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <div class="description__logo">
+              <img src="img\nerds-illustration.png" width="360" height="208" alt="красочный логотип компании Нёрдс">
+            </div>
+            <p class="description__list-text">с 2004 года Любим точность во всем:</p>
+           <dl class="description__items">
+             <dt class="description__term a">146<sup>%</sup></dt>
+                <dd class="description__definition b">Уровень самоотдачи</dd>
+             <dt class="description__term c">100<sup>%</sup></dt>
+                <dd class="description__definition d">Соблюдение сроков</dd>
+             <dt class="description__term f">50<sup>%</sup></dt>
+                <dd class="description__definition g">Минимальная предоплата</dd>
+           </dl>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="clients">
+        <h2 class="hidden">Наши клиенты</h2>
+        <div class="container">
+          <ul class="clients__list">
+            <li class="clients__item">
+              <a class="clients__link" href="#">
+                <img src="img\logo_htmlacademy.svg" width="199" height="57" alt="логотип html academy">
+              </a>
+           </li>
+            <li class="clients__item">
+              <a class="clients__link" href="#">
+                <img src="img\Borodinski-logo.png" width="209" height="90" alt="логотип барбершоп бородинский">
+              </a>
+            </li>
+            <li class="clients__item">
+              <a class="clients__link" href="#">
+                <img src="img\Pink-logo.png" width="182" height="52" alt="логотип сайта пинк">
+             </a>
+            </li>
+            <li class="clients__item">
+             <a class="clients__link" href="#">
+                <img src="img\Mishka-logo.png" width="173" height="84" alt="логотип сайта мишка">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="contacts-background-wrapper">
+          <h2 class="hidden">Как до нас добраться</h2>
+          <div class="container">
+            <div class="contact-inner-wrapper">
+              <article class="address-card">
+                <h2 class="address-card__title">NЁRDS DESIGN STUDIO</h2>
+                <p class="address-card__text">наб. Реки Карповки,<br> 5 лит П, Санкт-Петербург</p>
+                <p><a class="address-card__link" href="tel:+78005558628">+7 800 555-86-28</a></p>
+                <a class="button contacts__button" href="#">Напишите нам</a>
+              </article>
+              <img class="contacts__img" src="img\map-marker.png" width="231" height="190" alt="маркер на карте с указанием адреса студии Нёрдс">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer main-footer">
+      <div class="container">
+        <div class="main-footer__inner">
+          <div class="main-footer__title-container">
+            <h2 class="main-footer__title">Давайте дружить, это выгодно!</h2>
+            <p class="main-footer__text">Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+          <ul class="main-footer__list">
+            <li class="main-footer__item">
+              <div class="social__container">
+                <a class="main-footer__link" href="#">
+                  <img src="img\vk-icon.svg" width="26" height="15" alt="ссылка на вконтакте">
+                </a>
+              </div>
+            </li>
+            <li class="main-footer__item">
+              <div class="social__container">
+                <a class="main-footer__link" href="#">
+                  <img src="img\fb-icon.svg" width="12" height="22" alt="ссылка на фейсбук">
+                </a>
+              </div>
+            </li>
+            <li class="main-footer__item">
+              <div class="social__container">
+                <a class="main-footer__link" href="#">
+                  <img src="img\insta-icon.svg" width="21" height="21" alt="ссылка на инстаграмм">
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <section class="modal">
+      <h2 class="modal__title">Напишите нам</h2>
+      <form class="modal__form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label class="modal__label" for="login-field">Ваше имя:</label>
+          <input type="text" name="login" id="login-field" placeholder="Имя Фамилия">
+          <label class="modal__label" for="email-field">Ваш email:</label>
+          <input type="email" name="email" id="email-field" placeholder="email@example.com ">
+        </p>
+        <p>
+          <p>Текст письма:</p>
+          <p><textarea name="text" id="" cols="30" rows="10">В свободной форме</textarea></p>
+        </p>
+        <button class="button modal__button" type="submit">Отправить</button>
+        <button class="close-btn" type="button">Закрыть</button>
+      </form>
+    </section>
+  </body>
+</html>
